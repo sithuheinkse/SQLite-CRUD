@@ -65,6 +65,7 @@ namespace WindowsFormsApp7
         }
              private void btnInsert_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Data will put into the Database", "test");
             try
             {
                 string insertQuery = @"
@@ -160,6 +161,7 @@ namespace WindowsFormsApp7
             txtPhone.Clear();
             txtAddress.Clear();
             dateTimePicker1.Value = DateTime.Now;
+            txtName.Focus();
         }
     }
 }
