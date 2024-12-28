@@ -1,0 +1,38 @@
+# Ignore build outputs
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore packages folder (if not using NuGet restore)
+packages/
+
+# Ignore logs, temporary files, and backup files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore generated files
+*.g.cs
+*.g.i.cs
+
+# Ignore database files
+*.db
+
+# Ignore Visual Studio cache files
+.vscode/
+.vs/
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore other system files
+Thumbs.db
